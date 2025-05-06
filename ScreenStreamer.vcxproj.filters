@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4b71add1-8cbf-42ad-a48f-4c8e8fbcf53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\capture">
+      <UniqueIdentifier>{6da6b0ba-070a-4626-b74e-300b50ea6839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{e7c09439-4cdf-4931-ab0f-f6064b32a8bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ScreenStreamer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\capture\ScreenCapture.cpp">
+      <Filter>src\capture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\capture\ScreenCapture.h">
+      <Filter>src\capture</Filter>
+    </ClInclude>
+    <ClInclude Include="third_party\stb_image_write.h">
+      <Filter>third_party</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
